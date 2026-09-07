@@ -1,0 +1,15 @@
+/*Aquí elijo los colores para los textos dentro de sus etiquetas correspondientes*/
+
+/*Etiqueta <main>*/
+main{
+
+    /*Etiqueta <H2>*/
+    h2{
+    color:rgb(0, 255, 26); /*Color Verde fosfo*/
+    }
+
+    /*Etiqueta <p>*/
+    p{
+        color:rgb(21, 0, 255); /*Color Rojo*/
+    }
+}
