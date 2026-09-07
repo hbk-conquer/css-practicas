@@ -1,0 +1,50 @@
+table{
+    background-color: black;
+    color: white;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 350px;
+    width: 60vw;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+table thead{
+    background-color: blue;
+    font-size: 1.1rem;
+}
+
+table tbody{
+    background-color: rgb(178, 178, 178);
+}
+
+
+tbody td:first-child{
+    color: rgb(0, 125, 255);
+}
+
+tbody td p{
+    color: greenyellow;
+}
+
+.azul{
+    color: rgb(10, 190, 103);
+}
+
+main{
+
+    h2{
+        margin-left: 37vw;
+        color: aqua;
+    }
+
+    p{
+        margin-left: 35vw;
+        font-size: 24px;
+    }
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(43, 255, 0);
+}

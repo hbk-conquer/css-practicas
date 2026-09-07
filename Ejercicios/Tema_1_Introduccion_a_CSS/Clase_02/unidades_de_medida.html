@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida</title>
+    <link rel="stylesheet" href="/CSS/estilos_02.css">
+</head>
+<body>
+    <header>
+        <h1>Unidades de medida</h1>
+        <nav>
+            <ul>
+                <li><a href="../Tema_1_Introduccion_a_CSS.html">👈Volver atrás</a></li>
+                <li><a href="../../../index.html">👈👈Página de inicio</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <section>
+                <h2>Unidades absolutas</h2>
+                    <p>Tipos de unidades absolutas</p>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Unidad</th>
+                                <th>Significado</th>
+                                <th>Medida aproximada</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>in</td>
+                                <td>Pulgadas</td>
+                                <td>1in = 25.4mm</td>
+                            </tr>
+                            <tr>
+                                <td>cm</td>
+                                <td>Centímetros</td>
+                                <td>1cm = 10mm</td>
+                            </tr>
+                            <tr>
+                                <td>pc</td>
+                                <td>Picas</td>
+                                <td>1pc = 4.23mm</td>
+                            </tr>
+                            <tr>
+                                <td>mm</td>
+                                <td>Milímetros</td>
+                                <td>1mm = 1mm</td>
+                            </tr>
+                            <tr>
+                                <td>pt</td>
+                                <td>Puntos</td>
+                                <td>1pt = 0.35mm</td>
+                            </tr>
+                            <tr>
+                                <td>px</td>
+                                <td>Píxels</td>
+                                <td>1px = 0.26mm</td>
+                            </tr>
+                            <tr>
+                                <td>Q</td>
+                                <td>Cuarto de mm</td>
+                                <td>1Q = 0.248mm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+        </div>
+        <hr>
+        <div>
+            <section>
+                <h2>Unidades relativas</h2>
+                    <p>Tipos de unidades relativas</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Unidad</th>
+                                <th>Medida aproximada</th>
+                                <th>Ejemplo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>%</td>
+                                <td>Relativa a la herencia (concretamente, al elemento padre)</td>
+                                <td class="azul">50% = mitad del padre</td>
+                            </tr>
+                            <tr>
+                                <td>em / rem</td>
+                                <td>Relativo al <span class="azul">font-size</span> en ese elemento</td>
+                                <td class="azul">1.5em = 1.5 * 16px = 24px</td>
+                            </tr>
+                            <tr>
+                                <td>ex / rex</td>
+                                <td>Relativo a la altura del carácter <span class="azul">x</span> minúscula</td>
+                                <td class="azul">1ex ~ 0.5em</td>
+                            </tr>
+                            <tr>
+                                <td>ch / rch</td>
+                                <td>Relativo al ancho del carácter <span class="azul">0</span></td>
+                                <td class="azul">1ch ~ 1 carácter</td>
+                            </tr>
+                            <tr>
+                                <td>cap / rcap</td>
+                                <td colspan="2">Relativo a la altura del primer carácter en mayúscula</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>ic / ric</td>
+                                <td colspan="2">Relativo al ancho del glifo <span class="azul">&#131082;</span> CJK (Chino-Japones-Koreano)</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>lh / rlh</td>
+                                <td colspan="2">Relativo al <span class="azul">line-height</span> en ese elemento</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+        </div>
+        <hr>
+        <div>
+            <section>
+                <h2>Unidades del viewport</h2>
+                <p>Tipos de unidades del viewport</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Unidad</th>
+                            <th>Significado</th>
+                            <th>Medida aproximada</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>vw</td>
+                            <td>viewport width</td>
+                            <td><span class="azul">1vw = 1%</span> del ancho del navegador</td>
+                        </tr>
+                        <tr>
+                            <td>vh</td>
+                            <td>viewport height</td>
+                            <td><span class="azul">1vh = 1%</span> del alto del navegador</td>
+                        </tr>
+                        <tr>
+                            <td>vmin</td>
+                            <td>viewport minimum</td>
+                            <td><span class="azul">1vmin = 1%</span> del alto o ancho (el mínimo)</td>
+                        </tr>
+                        <tr>
+                            <td>vmax</td>
+                            <td>viewport maximum</td>
+                            <td><span class="azul">1vmax = 1%</span> del alto o el ancho (el máximo)</td>
+                        </tr>
+                        <tr>
+                            <td>vi</td>
+                            <td>viewport inline</td>
+                            <td>Versión lógica inline de <span class="azul">vw</span> y/o <span class="azul">vh</span></td>
+                        </tr>
+                        <tr>
+                            <td>vb</td>
+                            <td>viewport block</td>
+                            <td>Versión lógica en bloque de <span class="azul">vw</span> y/o <span class="azul">vh</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <p>© 2026 HBK. Todos los derechos reservados.<br>Trading · Desarrollo de software · Automatización · Tecnología</p>
+    </footer>
+</body>
+</html>
