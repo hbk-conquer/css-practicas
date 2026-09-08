@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de selectores CSS</title>
+    <link rel="stylesheet" href="selectores_I.css">
+</head>
+
+<body>
+    <nav style="background-color: white; color: black; font-size: 20px;">
+        <p class="atras"><a href="../Tema_2_selectores_en_CSS.html" class="atras">👈Volver atrás</a></p>
+    </nav>
+    <header>
+        <h1 class="headertitle">Título principal del header</h1>
+        <h2 class="headertitle">Subtítulo del header</h2>
+        <h3 class="headertitle">Título pequeño del header</h3>
+        <p>Un párrafo dentro del header</p>
+    </header>
+
+    <h1>Título H1 fuera del header</h1>
+    <h2>Título H2 normal</h2>
+    <h3>Título H3 fuera del header</h3>
+
+    <div>
+        <h2>Contenedor principal</h2>
+
+        <div>
+            Primer div hijo
+        </div>
+
+        <div>
+            Segundo div hijo
+        </div>
+
+        <section>
+            <div>
+                Este div NO es hijo directo del div principal
+            </div>
+        </section>
+    </div>
+    <p>
+        Este párrafo tiene varios hijos:
+        <span>un span</span>
+        <strong>un strong</strong>
+        <a href="#">un enlace</a>
+    </p>
+
+    <article>
+        <h2>Artículo</h2>
+        <p>Soy un párrafo hijo directo del article</p>
+        <div>
+            <p>Soy un párrafo dentro del article, pero NO soy hijo directo del article</p>
+        </div>
+        <section>
+            <div>
+                <p>También soy descendiente del article</p>
+            </div>
+        </section>
+    </article>
+
+    <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ol>
+
+    <section>
+        <ol>
+            <li>Otro elemento</li>
+            <li>Otro elemento</li>
+        </ol>
+    </section>
+
+    <p class="amarillo">Párrafo amarillo</p>
+
+    <div class="amarillo">
+        Div amarillo
+    </div>
+
+    <span class="amarillo">
+        Span amarillo
+    </span>
+
+    <ul>
+        <li>Elemento UL hijo de body 1</li>
+        <li>Elemento UL hijo de body 2</li>
+    </ul>
+
+    <div>
+        <ul>
+            <li>UL dentro de un div</li>
+            <li>Otro elemento</li>
+        </ul>
+    </div>
+
+    <p>
+        Visita
+        <a href="https://www.google.com">Google</a>
+        o
+        <a href="https://www.wikipedia.org">Wikipedia</a>
+    </p>
+
+    <p><span><a href="#">Este enlace está dentro de un span</a></span></p>
+
+    <div id="platano">
+        Soy el elemento con id platano
+    </div>
+
+    <section>
+
+        <h2>Título con hermanos div</h2>
+
+        <div>Primer div hermano del h2</div>
+
+        <p>También hay un párrafo entre medias</p>
+
+        <div>Segundo div hermano del h2</div>
+
+        <div>Tercer div hermano del h2</div>
+
+    </section>
+
+    <ul>
+        <li>
+            <p class="paisa">Medellín</p>
+        </li>
+
+        <li>
+            <div>
+                <p class="paisa">Antioquia</p>
+            </div>
+        </li>
+
+        <li>
+            <p>Este párrafo no tiene la clase paisa</p>
+        </li>
+
+    </ul>
+
+    <p class="paisa">Este paisa está fuera de cualquier ul</p>
+
+</body>
+</html>
