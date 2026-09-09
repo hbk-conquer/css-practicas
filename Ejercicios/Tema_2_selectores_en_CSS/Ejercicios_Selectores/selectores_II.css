@@ -1,0 +1,44 @@
+/*1 El primer elemento <a> hijo de <p>*/
+p > a:first-child{
+    background-color: lime;
+}
+/*2 Selecciona los checkbox que estén marcados, hijos de un <form>*/
+form > [type="checkbox" ]:checked{
+    background-color: lime;
+}
+/*3 Selecciona el último <p> que sea descendiente de <article>*/
+article p:last-of-type{
+    background-color: lime;
+}
+/*4 Seleccionar el segundo hijo de un elemento <section>*/
+section > :nth-child(2){
+    background-color: lime;
+}
+/*5 Seleccionar los hijos pares de un elemento <ol>*/
+ol > :nth-child(even){
+    background-color: lime;
+}
+/*6 Seleccionar el antepenúltimo <li> de un ul de longitud indefinida*/
+ul li:nth-last-child(3){
+    background-color: lime;
+}
+/*7 El segundo <a> de dentro de un <p>*/
+p a:nth-of-type(2){
+    background-color: lime;
+}
+/*8 Los <button> que sean hijos únicos*/
+button:only-child{
+    background-color: lime;
+}
+/*9 Los span que sean primeros hijos de un <p>*/
+p > span:first-child{
+    background-color: lime;
+}
+/*10 Penúltimo hijo de body*/
+body >:nth-last-child(3){
+    /*Para una visualizacion correcta tengo que usar 3 en vez de 2
+    porque live server abre una etiqueta debajo del footer de script
+    por eso el div penultimo hijo pasa a ser antepenultimo
+    con el live server activado*/
+    background-color: lime;
+}

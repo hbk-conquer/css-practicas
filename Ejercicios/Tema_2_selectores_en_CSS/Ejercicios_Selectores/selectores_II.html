@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Selectores II</title>
+    <link rel="stylesheet" href="selectores_II.css">
+</head>
+
+<body>
+    
+    <div>
+        <p>
+            <a href="#">Primer enlace</a>
+            <a href="#">Segundo enlace</a>
+            <a href="#">Tercer enlace</a>
+        </p>
+
+        <p>
+            <strong>Primer elemento del párrafo</strong>
+            <a href="#">Este enlace NO es el primer hijo</a>
+        </p>
+    </div>
+
+    <div>
+        <form>
+
+            <input type="checkbox" checked>
+            Checkbox marcado hijo directo
+
+            <input type="checkbox">
+            Checkbox no marcado
+
+            <input type="checkbox" checked>
+            Otro checkbox marcado hijo directo
+
+            <div>
+                <input type="checkbox" checked>
+                Checkbox marcado pero NO hijo directo del form
+            </div>
+
+        </form>
+    </div>
+
+    <div>
+        <article>
+
+            <h3>Artículo de ejemplo</h3>
+
+            <p>Primer párrafo del artículo</p>
+
+            <p>Segundo párrafo del artículo</p>
+
+            <p>Último párrafo del artículo</p>
+
+        </article>
+    </div>
+
+    <div>
+        <section>
+
+            <p>Primer hijo del section</p>
+
+            <div>
+                Segundo hijo del section
+            </div>
+
+            <span>
+                Tercer hijo del section
+            </span>
+
+            <p>
+                Cuarto hijo del section
+            </p>
+
+        </section>
+    </div>
+
+    <div>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+            <li>Elemento 6</li>
+            <li>Elemento 7</li>
+            <li>Elemento 8</li>
+        </ol>
+
+    </div>
+
+    <div>
+        <ul>
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+            <li>Elemento D</li>
+            <li>Elemento E</li>
+            <li>Elemento F</li>
+            <li>Elemento G</li>
+        </ul>
+
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+            <li>Elemento 6</li>
+            <li>Elemento 7</li>
+            <li>Elemento 8</li>
+            <li>Elemento 9</li>
+            <li>Elemento 10</li>
+        </ul>
+
+    </div>
+
+    <div>
+        <p>
+            <a href="#">Enlace 1</a>
+            <a href="#">Enlace 2</a>
+            <a href="#">Enlace 3</a>
+            <a href="#">Enlace 4</a>
+        </p>
+
+        <p>
+            <span>Un span entre medias</span>
+            <a href="#">Primer enlace</a>
+            <strong>Un strong</strong>
+            <a href="#">Segundo enlace</a>
+            <a href="#">Tercer enlace</a>
+        </p>
+
+    </div>
+
+    <div>
+        <div>
+            <button>Botón hijo único</button>
+        </div>
+
+        <div>
+            <button>Botón NO único</button>
+            <p>Otro hijo</p>
+        </div>
+
+        <section>
+            <button>Otro botón hijo único</button>
+        </section>
+
+    </div>
+
+    <div>
+        <p>
+            <span>Este span es el primer hijo</span>
+            <strong>Segundo hijo</strong>
+            <span>Este span NO es el primer hijo</span>
+        </p>
+
+        <p>
+            <strong>Este strong es el primer hijo</strong>
+            <span>Este span NO es el primer hijo</span>
+        </p>
+
+        <p>
+            <span>Otro span que sí es primer hijo</span>
+            <a href="#">Enlace</a>
+        </p>
+
+    </div>
+
+    <div>
+        Soy el penúltimo hijo del body
+    </div>
+
+    <footer>
+        Soy el último hijo del body
+    </footer>
+
+</body>
+
+</html>
