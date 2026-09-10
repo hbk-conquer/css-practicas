@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Selectores III</title>
+    <link rel="stylesheet" href="selectores_III.css">
+</head>
+
+<body>
+
+    <header>
+        Primer hijo directo de BODY
+
+        <h1 class="libreConf">H1 principal </h1>
+        <h3 class="libreConf">H3 principal</h3>
+    </header>
+
+
+    <div>
+        <div>
+            DIV hijo directo de otro DIV
+        </div>
+
+        <section>
+            <div>
+                DIV descendiente, pero no hijo directo del primer DIV
+            </div>
+        </section>
+    </div>
+
+
+    <ul>
+        <li>
+            <span>Hijo 1 del LI</span>
+            <strong>Hijo 2 del LI</strong>
+            <em>Hijo 3 del LI</em>
+            <a href="#">Hijo 4 del LI</a>
+            <span>Hijo 5 del LI</span>
+            <button>Hijo 6 del LI</button>
+        </li>
+
+        <li>LI número 2</li>
+        <li>LI número 3</li>
+        <li>LI número 4</li>
+        <li>LI número 5</li>
+        <li>LI número 6</li>
+        <li>LI número 7</li>
+        <li>LI número 8</li>
+        <li>LI número 9</li>
+    </ul>
+
+
+    <ol>
+        <li>Elemento OL 1</li>
+        <li>Elemento OL 2</li>
+        <li>Elemento OL 3</li>
+        <li>Elemento OL 4</li>
+        <li>Elemento OL 5</li>
+        <li>Elemento OL 6</li>
+    </ol>
+
+
+    <article>
+        <p>P hijo directo de ARTICLE</p>
+
+        <div>
+            <p>P descendiente de ARTICLE</p>
+        </div>
+
+        <section>
+            <div>
+                <p>Otro P descendiente de ARTICLE</p>
+            </div>
+        </section>
+    </article>
+
+
+    <h1>Otro H1 principal</h1>
+    <h2>H2 normal</h2>
+    <h3>H3 normal</h3>
+
+
+    <p>
+        <a href="#">Enlace hijo de P</a>
+
+        <span>
+            <a href="#">Enlace descendiente de P</a>
+        </span>
+    </p>
+
+
+    <p id="platano">
+        Párrafo con id platano
+    </p>
+
+
+    <div>
+        <span class="rojo">
+            Elemento rojo que es primer hijo
+        </span>
+
+        <p>Segundo hijo</p>
+    </div>
+
+
+    <section>
+        <h2>Primer H2 dentro de SECTION</h2>
+
+        <p>Segundo hijo del SECTION</p>
+
+        <h2>Segundo H2 dentro de SECTION</h2>
+
+        <button>Button hijo de SECTION</button>
+    </section>
+
+
+    <ol>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+        <li>Cinco</li>
+        <li>Seis</li>
+        <li>Siete</li>
+        <li>Ocho</li>
+    </ol>
+
+
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+        <li>H</li>
+        <li>I</li>
+        <li>J</li>
+    </ul>
+
+
+    <div>
+        <p class="verde">
+            P verde hijo directo de DIV
+        </p>
+
+        <section>
+            <p class="verde">
+                P verde descendiente pero no hijo directo
+            </p>
+        </section>
+    </div>
+
+
+    <div>
+        <a href="#" class="grande">
+            Enlace con clase grande
+        </a>
+
+        <a href="#" class="enlace grande destacado">
+            Enlace cuya lista de clases contiene grande
+        </a>
+
+        <a href="#" class="pequeno">
+            Enlace sin grande
+        </a>
+    </div>
+
+
+    <section>
+        <button>
+            Button hijo de section
+        </button>
+    </section>
+
+
+    <div>
+        <button>
+            Button hijo único
+        </button>
+    </div>
+
+
+    <div>
+        <button>
+            Este button NO es hijo único
+        </button>
+
+        <span>Otro hijo</span>
+    </div>
+
+
+    <p>
+        <span>
+            Span primer hijo de P
+        </span>
+
+        <strong>Segundo hijo</strong>
+    </p>
+
+
+    <section>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+
+        <span>Elemento separador</span>
+
+        <label for="apellido">Apellido</label>
+        <strong>Hay algo entre label e input</strong>
+        <input type="text" id="apellido">
+    </section>
+
+
+    <div>
+        <button>
+            Button cuyo padre es DIV
+        </button>
+    </div>
+
+
+    <label for="mascota">Mascota</label>
+    <label for="mascota">Otra etiqueta mascota</label>
+    <label for="persona">Persona</label>
+
+
+    <div>
+        <img src="imagen1.jpg" alt="Imagen 1" class="clasec">
+        <img src="imagen2.jpg" alt="Imagen 2">
+    </div>
+
+
+    <p>
+        <a href="#">Enlace dentro de párrafo</a>
+        <a href="#">Segundo enlace dentro de párrafo</a>
+    </p>
+
+
+    <div class="Curvado">
+        Elemento DIV Curvado
+    </div>
+
+    <p class="Curvado">
+        Elemento P Curvado
+    </p>
+
+
+    <a href="#" class="Recto">
+        A Recto
+    </a>
+
+    <ol class="Recto">
+        <li>OL Recto</li>
+    </ol>
+
+    <p class="Recto">
+        P Recto, no debería contar cuando se pidan únicamente A y OL
+    </p>
+
+
+    <div>
+        <h2>
+            <a href="#">
+                A dentro de H2 dentro de DIV
+            </a>
+        </h2>
+    </div>
+
+
+    <div>
+        <p>
+            <span>
+                <strong>Hijo de SPAN</strong>
+                <em>Otro hijo de SPAN</em>
+                <a href="#">Otro hijo de SPAN</a>
+            </span>
+        </p>
+    </div>
+
+
+    <div>
+        <p>P dentro del DIV</p>
+
+        <span class="aviso">
+            Span con class aviso
+        </span>
+
+        <strong class="aviso">
+            Strong con class aviso
+        </strong>
+
+        <span>Elemento sin aviso</span>
+    </div>
+
+
+    <p id="Sons">
+        <em>EM hijo directo de p#Sons</em>
+
+        <a href="#">
+            A hijo directo de p#Sons
+        </a>
+
+        <span>
+            Span que no interesa
+        </span>
+    </p>
+
+
+    <div class="basico">
+        <a href="#">Primer enlace en basico</a>
+
+        <p>
+            <a href="#">Otro enlace dentro de basico</a>
+        </p>
+    </div>
+
+
+    <div class="lolito">
+        <h2>H2 dentro de lolito</h2>
+
+        <section>
+            <h2>Otro H2 dentro de lolito</h2>
+        </section>
+
+        <h3>H3 que no interesa</h3>
+    </div>
+
+
+    <p>
+        <span>SPAN dentro de P</span>
+        <strong>STRONG dentro de P</strong>
+        <em>EM dentro de P</em>
+        <a href="#">A dentro de P</a>
+    </p>
+
+
+    <div>
+        <p>
+            <span>
+                Elemento dentro de P dentro de DIV
+            </span>
+        </p>
+    </div>
+
+
+    <p>
+        <span>
+            SPAN hijo directo de P
+        </span>
+    </p>
+
+
+    <div class="transbox">
+        Primer DIV transbox
+    </div>
+
+    <div class="transbox">
+        Segundo DIV transbox
+    </div>
+
+
+    <ul>
+        <li>LI general 1</li>
+        <li>LI general 2</li>
+        <li>LI general 3</li>
+    </ul>
+
+
+    <div>
+        <p>Primer párrafo dentro del DIV</p>
+        <p>Segundo párrafo dentro del DIV</p>
+        <p>Tercer párrafo dentro del DIV</p>
+    </div>
+
+
+    <a href="#">
+        Enlace general de la página
+    </a>
+
+
+    <div class="libreConf">
+        <span>SPAN dentro de libreConf</span>
+        <strong>STRONG dentro de libreConf</strong>
+
+        <p>P dentro de libreConf</p>
+
+        <section>
+            <p>Otro P dentro de libreConf</p>
+        </section>
+    </div>
+
+
+    <div id="prueba1">
+        <p>Primer P dentro de prueba1</p>
+
+        <section>
+            <p>Segundo P dentro de prueba1</p>
+        </section>
+    </div>
+
+
+    <div>
+        <p>
+            <a href="#">
+                A hijo de P dentro de DIV
+            </a>
+        </p>
+    </div>
+
+
+    <h1 class="libreConf">
+        H1 libreConf
+    </h1>
+
+    <h2 class="libreConf">
+        H2 libreConf
+    </h2>
+
+    <h3 class="libreConf">
+        H3 libreConf
+    </h3>
+
+
+    <p id="párrafo1">
+        P con id párrafo1
+    </p>
+
+
+    <p id="hijos">
+        <a href="#">A hijo directo 1</a>
+        <a href="#">A hijo directo 2</a>
+
+        <span>
+            <a href="#">A que NO es hijo directo</a>
+        </span>
+    </p>
+
+
+    <div>
+        <p>P número 1</p>
+        <p>P número 2</p>
+        <p>P número 3</p>
+        <p>P número 4</p>
+        <p>P número 5</p>
+    </div>
+
+
+    <div id="primero">
+        <p>
+            <a href="#" class="azul">
+                A azul dentro del DIV primero
+            </a>
+        </p>
+
+        <a href="#" class="azul">
+            Otro A azul
+        </a>
+
+        <a href="#">
+            A sin azul
+        </a>
+    </div>
+
+
+    <span class="holaKtal">
+        SPAN holaKtal
+    </span>
+
+    <div class="holaKtal">
+        DIV holaKtal
+    </div>
+
+    <p class="holaKtal">
+        P holaKtal
+    </p>
+
+
+    <div>
+        <p>
+            <span>Elemento normal</span>
+
+            <li h3="ejemplo">
+                LI con atributo h3
+            </li>
+
+            <li>
+                LI sin atributo h3
+            </li>
+        </p>
+    </div>
+
+
+    <p>
+        <span>Hijo 1</span>
+        <strong>Hijo 2</strong>
+        <em>Hijo 3</em>
+        <a href="#">Hijo 4</a>
+        <button>Hijo 5</button>
+        <small>Hijo 6</small>
+        <i>Hijo 7</i>
+    </p>
+
+
+    <div>
+        <span>SPAN dentro de DIV</span>
+        <h3>H3 dentro de DIV</h3>
+
+        <section>
+            <span>Otro SPAN dentro de DIV</span>
+            <h3>Otro H3 dentro de DIV</h3>
+        </section>
+    </div>
+
+
+    <div>
+        <a href="#">A número 1</a>
+        <p>P número 1</p>
+
+        <a href="#">A número 2</a>
+        <p>P número 2</p>
+
+        <a href="#">A número 3</a>
+        <p>P número 3</p>
+
+        <a href="#">A número 4</a>
+        <p>P número 4</p>
+
+        <p>P número 5</p>
+        <p>P número 6</p>
+    </div>
+
+
+    <div>
+        <h1 class="rojo">
+            H1 rojo dentro de DIV
+        </h1>
+
+        <h1>
+            H1 sin clase rojo
+        </h1>
+    </div>
+
+
+    <div>
+        <p>
+            <span>SPAN contenido en P contenido en DIV</span>
+            <strong>STRONG contenido en P contenido en DIV</strong>
+            <a href="#">A contenido en P contenido en DIV</a>
+        </p>
+    </div>
+
+
+    <p class="centrado">
+        Primer P centrado
+    </p>
+
+    <p class="centrado">
+        Segundo P centrado
+    </p>
+
+
+    <div>
+        <span>Primer hijo</span>
+        <p>Hijo intermedio</p>
+        <strong>Último hijo</strong>
+    </div>
+
+
+    <p>
+        <a href="#">Primer A</a>
+        <span>SPAN</span>
+        <a href="#">Segundo A</a>
+        <strong>STRONG</strong>
+        <a href="#">Tercer A</a>
+        <a href="#">Cuarto A</a>
+    </p>
+
+
+    <h2 id="titulo">
+        H2 con id titulo
+    </h2>
+
+
+    <div>
+        <span>Elemento inicial</span>
+
+        <p>Primer P del DIV</p>
+        <p>Segundo P del DIV</p>
+        <p>Tercer P del DIV</p>
+        <p>Cuarto P del DIV</p>
+        <p>Quinto P del DIV</p>
+        <p>Sexto P del DIV</p>
+    </div>
+
+
+    <div>
+        <p>
+            P 1
+        </p>
+
+        <p>
+            P 2
+        </p>
+
+        <p>
+            P 3
+        </p>
+
+        <p>
+            P 4
+        </p>
+
+        <p>
+            P 5
+        </p>
+    </div>
+
+
+    <section>
+        <p id="Nombre">
+            <a href="#" class="Buenas">
+                A Buenas dentro de p#Nombre
+            </a>
+
+            <a href="#">
+                A sin Buenas
+            </a>
+        </p>
+    </section>
+
+
+    <h1>
+        H1 general de la página
+    </h1>
+
+    <div>
+        <h2>
+            H2 dentro de DIV
+        </h2>
+    </div>
+
+
+    <section>
+        <div>
+            Primer DIV de su tipo
+        </div>
+
+        <div>
+            Segundo DIV de su tipo
+        </div>
+
+        <div>
+            Tercer DIV de su tipo
+        </div>
+    </section>
+
+
+    <h3>
+        Otro H3 general
+    </h3>
+
+
+    <p class="Row">
+        <img src="imagen-row.jpg" alt="Imagen dentro de P Row">
+    </p>
+
+    <p>
+        <img src="imagen-normal.jpg" alt="Imagen fuera de Row">
+    </p>
+
+
+    <div>
+        <section>
+            <ol>
+                <li>OL dentro de SECTION dentro de DIV</li>
+                <li>Segundo elemento</li>
+            </ol>
+        </section>
+
+        <article>
+            <div>
+                <ol>
+                    <li>Otro OL a mayor profundidad</li>
+                </ol>
+            </div>
+        </article>
+    </div>
+
+
+    <p>
+        <span>SPAN dentro de P</span>
+        <a href="#">A dentro de P</a>
+
+        <div>
+            DIV dentro de P creado como estructura de práctica
+        </div>
+    </p>
+
+
+    <div class="hype">
+        <span class="power">
+            Primer hijo con clase power
+        </span>
+
+        <span class="power">
+            Segundo power
+        </span>
+    </div>
+
+
+    <div class="hype">
+        <span>
+            Primer hijo sin power
+        </span>
+
+        <span class="power">
+            Power que NO es primer hijo
+        </span>
+    </div>
+
+
+    <ol>
+        <li>Otra lista ordenada</li>
+        <li>Segundo elemento</li>
+    </ol>
+
+
+    <p class="hola">
+        <a href="#">Primer enlace dentro de p.hola</a>
+        <a href="#">Segundo enlace dentro de p.hola</a>
+    </p>
+
+
+    <p>
+        <span>Primer hijo</span>
+        <strong>Segundo hijo</strong>
+        <em>Tercer hijo</em>
+    </p>
+
+
+    <div>
+        <p>
+            <span>Primer hijo del primer P</span>
+            <strong>Último hijo del primer P</strong>
+        </p>
+
+        <p>
+            <span>Primer hijo del segundo P</span>
+            <em>Hijo intermedio</em>
+            <strong>Último hijo del segundo P</strong>
+        </p>
+
+        <p>
+            <span>Tercer P</span>
+        </p>
+    </div>
+
+
+    <div>
+        <span>Primer hijo del DIV</span>
+        <p>Segundo hijo</p>
+        <em>Tercer hijo</em>
+        <strong>Último hijo del DIV</strong>
+    </div>
+
+
+    <div>
+        <p>
+            <span id="c-header">
+                Elemento con id c-header
+            </span>
+        </p>
+    </div>
+
+
+    <img src="loco1.jpg" alt="Imagen loco" class="loco">
+    <img src="normal.jpg" alt="Imagen normal">
+
+
+    <p>
+        <a href="#">Primer enlace</a>
+        <span>Segundo hijo</span>
+        <strong>Tercer hijo</strong>
+        <a href="#">Segundo enlace</a>
+        <a href="#">Tercer enlace</a>
+    </p>
+
+
+    <div id="estructuras-especiales"></div>
+
+
+    <div>
+        <p>Primer párrafo del último grupo</p>
+        <p>Párrafo intermedio</p>
+        <p>Último párrafo del último grupo</p>
+    </div>
+
+
+    <div id="penultimo-body">
+        Penúltimo hijo escrito en el BODY
+    </div>
+
+    <footer>
+        Último hijo escrito en el BODY
+    </footer>
+
+</body>
+
+</html>
